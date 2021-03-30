@@ -108,17 +108,33 @@ footer {
 
 }
 .main-content{
-	width:60%;
+	width:50%;
+	float:left;
+	padding:10px;
+	margin:10px;
+
+
+
 
 }
 
 .secondary-content img{
-	box-sizing:border-box;
-	padding:15px;
+	box-sizing: border-box;
+	width: 100%; 
+	display: block;
+}
+
+.secondary-content figure{
+	width:30%;
 	float:left;
-	
+	box-sizing: border-box;
+	padding:80px;
+
+
+
 }
 
 .aside{
-
+	width:40%;
+	left:right;
 }
