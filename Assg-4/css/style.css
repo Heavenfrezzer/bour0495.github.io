@@ -69,6 +69,8 @@ h1{
 	text-align: center;
 	float-left;
 }
+
+
 header{
 	width:100%;
 	background: #7cc576;
@@ -88,12 +90,12 @@ footer {
 
 .nav-container{
 	width: 100%;
-	background-color:#6dcff6;
+	background-color:#7cc576;
 	display: block;
 	margin:10px;
 }
 .nav-container li{
-	width: 25%;
+	width: 10%;
 	float: left;
 	padding: 10px;
 	box-sizing: border-box;
@@ -102,10 +104,7 @@ footer {
 
 }
 
-#Flop{
-	padding:20px;
-	background-color:#6dcff6;
-}
+
 
 }
 .main-content{
@@ -114,9 +113,9 @@ footer {
 }
 
 .secondary-content img{
+	box-sizing:border-box;
 	padding:15px;
 	float:left;
-	box-sizing:border-box;
 	
 }
 
