@@ -112,10 +112,6 @@ footer {
 	float:left;
 	padding:10px;
 	margin:10px;
-
-
-
-
 }
 
 .secondary-content img{
@@ -129,12 +125,9 @@ footer {
 	float:left;
 	box-sizing: border-box;
 	padding:80px;
-
-
-
 }
 
 .aside{
 	width:40%;
-	left:right;
+	right:left;
 }
