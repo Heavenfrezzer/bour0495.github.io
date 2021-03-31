@@ -62,11 +62,11 @@ img{
 }
 
 h1{
-	position: absolute;
+/*	position: absolute;*/
 	font-size:36px;
 	padding:10px;
-	top:2%;
-	left:20%;
+/*	top:2%;
+	left:20%;*/
 	box-sizing:border-box;
 	text-align: center;
 	float:left;
@@ -146,6 +146,8 @@ footer img{
 
 .aside{
 	width:40%;
+	padding:20px;
+	box-sizing: border-box;
 	float:right;
 }
 
