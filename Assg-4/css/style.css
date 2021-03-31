@@ -47,6 +47,11 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+img{
+	width:100%;
+}
+
+
 
 /*CSS clearfix*/
 
@@ -55,19 +60,20 @@ table {
 	display: table;
 	clear: both;
 }
-h1,h2,h3{
-	font-weight: bold;
-	font-size: 25px;
-}
+
 h1{
 	position: absolute;
-	font-size:40px;
+	font-size:36px;
 	padding:10px;
 	top:2%;
 	left:20%;
 	box-sizing:border-box;
 	text-align: center;
-	float-left;
+	float:left;
+}
+h2,h3{
+	font-weight: bold;
+	font-size: 25px;
 }
 
 
@@ -88,30 +94,59 @@ footer {
 
 }
 
+footer img{
+	width:2%;
+	float:right;
+}
+
 .nav-container{
 	width: 100%;
-	background-color:#7cc576;
-	display: block;
-	margin:10px;
+	/*display: block;*/
+	/*margin:10px*/;
 }
 .nav-container li{
-	width: 10%;
+	width: 25%;
 	float: left;
-	padding: 10px;
+	padding: 25px;
 	box-sizing: border-box;
-	display: block;
-	background-color:#7cc576;
+	/*display: block;*/
+
+
+}
+.nav-container a{	
+	background-color: #6dcff6;
+	padding:25px;
+	display:inline-block;
+
 
 }
 
 
 
+
+.logo{
+	width:125px;
+	float:left;
+	display:inline-block;
 }
-.main-content{
-	width:50%;
+
+}
+.jargon{
+	width:55%;
 	float:left;
 	padding:10px;
-	margin:10px;
+/*	margin:10px;*/
+}
+
+
+/*.main-content{
+	width:60%;
+
+}*/
+
+.aside{
+	width:40%;
+	float:right;
 }
 
 .secondary-content img{
@@ -127,7 +162,3 @@ footer {
 	padding:80px;
 }
 
-.aside{
-	width:40%;
-	right:left;
-}
