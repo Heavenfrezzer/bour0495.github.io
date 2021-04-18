@@ -1,0 +1,193 @@
+<@charset "utf-8";
+ /*http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+img{
+	width:100%;
+}
+
+
+
+/*CSS clearfix*/
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+/*@media all and (max-width: 200px){*/
+
+/*Color pallette
+light green:114,169,174*/
+
+
+
+.logo{
+	color:rgb(114,169,174);
+}
+
+body{
+	background-image: url("../img/double-bubble.png");
+}
+
+.main-nav{
+background-color:rgb(114,169,174);
+width:100%;
+text-align:left;
+padding:20px;
+
+}
+
+.Lorem{
+	/*float:left;*/
+	width:100%;
+}
+	
+#picture{
+/*	position:relative;*/
+	height:100px;
+	width:200px;
+	float:right;
+}
+
+.Schedule{
+	color:rgb(114,169,174);
+}
+.Table {
+border-collapse:collapse;
+margin:25px;
+font-size:0.9em;
+width:100%;
+border: 2px solid black;
+}
+
+.Heading th{
+	color:rgb(114,169,174);
+	padding:10px;
+}
+
+/*#times tr{
+	float:left;
+	text-align:left;
+}*/
+
+.subject tr{
+	border: 2px solid black;
+	margin:25px;
+	font-size:0.9em;
+	width:100%;
+	border: 2px solid black
+/*	border-collapse:collapse;*/
+
+}
+.Tbody tr{
+	/*border: 2px solid black;*/
+	padding:20px;
+	margin:25px;
+/*	font-size:0.9em;*/
+	width:100%;
+	border: 2px solid black
+/*	border-collapse:collapse;*/
+}
+
+.edit1{
+	float:left;
+	display:block;
+	width:50%;
+	color:rgb(114,169,174);
+	text-decoration-color: rgb(000,000,000)
+
+}
+
+.Input{
+	width:100px;
+	text-align:left;
+	display:inline-block;
+	clear:left;
+}
+
+.profile{
+	float:right;
+	display:inline-block;
+	width:50%;
+	color:rgb(114,169,174);
+}
+
+.bottom{
+background-color:#454545
+
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

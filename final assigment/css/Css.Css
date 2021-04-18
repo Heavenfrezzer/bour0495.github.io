@@ -72,10 +72,11 @@ light green:114,169,174*/
 }
 
 body{
-	background-image: url("../img/double-bubble.png");
-}
+/*	background-image: url("../img/double-bubble.png");
+*/}
 
 .main-nav{
+background-image: url("../img/double-bubble.png");
 background-color:rgb(114,169,174);
 width:100%;
 text-align:left;
@@ -157,6 +158,13 @@ border: 2px solid black;
 	width:50%;
 	color:rgb(114,169,174);
 }
+
+.bottom{
+background-color:#454545
+
+}
+
+
 
 
 }
