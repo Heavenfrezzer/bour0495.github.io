@@ -100,11 +100,18 @@ padding:20px;
 }
 .Table {
 border-collapse:collapse;
-margin:25px;
-font-size:0.9em;
+/*margin:25px;
+font-size:0.9em;*/
 width:100%;
-border: 2px solid black;
+border: 1px solid black;
 }
+
+	th{
+		border:1px solid black;
+		padding:10px,0px
+
+
+	}
 
 .Heading th{
 	color:rgb(114,169,174);
@@ -126,13 +133,12 @@ border: 2px solid black;
 
 }
 .Tbody tr{
-	/*border: 2px solid black;*/
+	
 	padding:20px;
 	margin:25px;
-/*	font-size:0.9em;*/
 	width:100%;
 	border: 2px solid black
-/*	border-collapse:collapse;*/
+	border-collapse:collapse;
 }
 
 .edit1{
@@ -158,11 +164,11 @@ border: 2px solid black;
 	color:rgb(114,169,174);
 }
 
-.bottom{
+/*.bottom{
 background-color:#454545;
-float:bottom;
-}
 
+}
+*/
 
 
 
