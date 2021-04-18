@@ -159,8 +159,8 @@ border: 2px solid black;
 }
 
 .bottom{
-background-color:#454545
-
+background-color:#454545;
+float:bottom;
 }
 
 
