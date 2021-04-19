@@ -66,29 +66,44 @@ img{
 light green:114,169,174*/
 
 
-
 .logo{
 	color:rgb(114,169,174);
 }
 
 body{
+	/*The background Image*/
 	background-image: url("../img/double-bubble.png");
 }
 
-.main-nav{
-background-color:rgb(114,169,174);
-width:100%;
-text-align:left;
-padding:20px;
+.main-nav	{
+	/*the buttons*/
+	background-color:rgb(114,169,174);
+	width:100%;
+	text-align:left;
+	padding:20px;
 
+}
+
+.contact{ 
+	/*For the button decorations*/
+	text-decoration:0;
+	color:#000000;
+	padding:25px;
+}
+
+.contact:hover{
+	/*The buttons changing color*/
+	color:#ffffff;
 }
 
 .Lorem{
-	/*float:left;*/
+	/*The lorem ipsum*/
 	width:100%;
+	font-family: 'Orelega One', cursive;
 }
 	
 #picture{
+	/*The picture*/
 /*	position:relative;*/
 	height:100px;
 	width:200px;
@@ -99,12 +114,14 @@ padding:20px;
 	color:rgb(114,169,174);
 }
 .Table {
-border-collapse:collapse;
+/*border-collapse:collapse;*/
 margin:25px;
 font-size:0.9em;
 width:100%;
-border: 2px solid black;
+border: 1px solid black;
 }
+
+
 
 .Heading th{
 	color:rgb(114,169,174);
@@ -116,23 +133,19 @@ border: 2px solid black;
 	text-align:left;
 }*/
 
-.subject tr{
-	border: 2px solid black;
-	margin:25px;
-	font-size:0.9em;
-	width:100%;
-	border: 2px solid black
-/*	border-collapse:collapse;*/
+	td{
+		/*The table contents*/
+		border: 2px solid black;
+		padding:30px;
+		}
 
-}
-.Tbody tr{
-	/*border: 2px solid black;*/
+.Tbody{
+	/*The table body */
 	padding:20px;
 	margin:25px;
-/*	font-size:0.9em;*/
-	width:100%;
-	border: 2px solid black
-/*	border-collapse:collapse;*/
+/*	width:100%;*/
+	border: 2px solid black;
+	border-collapse:collapse;
 }
 
 .edit1{
@@ -145,6 +158,7 @@ border: 2px solid black;
 }
 
 .Input{
+	/*The input forms*/
 	width:100px;
 	text-align:left;
 	display:inline-block;
@@ -152,21 +166,72 @@ border: 2px solid black;
 }
 
 .profile{
-	float:right;
+	/*Profile heading */
 	display:inline-block;
 	width:50%;
 	color:rgb(114,169,174);
 }
 
+#picture1{
+	width:150px;
+	height:150px;
+}
+
+.placeholder {
+}
+
 .bottom{
-background-color:#454545
+	width:100%;
+	background-color:#454545;
+	padding:60px;
 
+}
+#QuickLinks{
+	width:33%;
+	color:#FFFFFF;
+}
+
+.Quick{
+	/*The quicklinks */
+	display: block;
+ 	 list-style:none;
+ 	 margin:10px auto;
+ 	 text-align:left;
+	color:#FFFFFF;
+	text-decoration:0;
+}
+
+.Socials{
+	/*For the social media icons*/
+	position:relative;
+	top: -40px;
+	width:33%;
+	height:60px;
+	width:50px;
+	display: block;
+	text-align:center;
+  	margin-left: auto;
+ 	margin-right: auto;
+ 	display: flex;
+    justify-content: center;
+}
+
+.follow{
+	/*For the text above the social media icons*/
+	position:relative;
+	color:#FFFFFF;
+	text-align:center;
+	top:-175px
+}
+.Address{
+	top:-300px;
+	float:right;
+	text-align:left;
+	position:relative;
+	color:#FFFFFF;
 }
 
 
-
-
-}
 
 
 

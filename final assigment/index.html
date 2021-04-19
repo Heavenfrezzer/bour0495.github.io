@@ -2,9 +2,11 @@
 <html lang="en-ca">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Final</title>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Orelega+One&display=swap" rel="stylesheet">
 
 <h1 class="logo">My Logo</h1>
-<link rel="stylesheet" type="text/css" href="css/style.css"> 
+<link rel="stylesheet" type="text/css" href="css/stye.css"> 
 <body>	
 
 <header>
@@ -12,33 +14,34 @@
 		<!-- main navigation start -->
 			<nav class="main-nav clearfix">
 			
-					<a href="contact-us.html">Home</a>
+					<a class="contact" href="contact-us.html">Home</a>
 				
-					<a href="about-us.html">About</a>
+					<a class="contact" href="about-us.html">About</a>
 				
-					<a href="images.html">Schedule</a>
+					<a class="contact" href="images.html">Schedule</a>
 				
-					<a href="images.html">Portfolio</a>
+					<a class="contact" href="images.html">Portfolio</a>
 				
-					<a href="images.html">Contact </a>
+					<a class="contact" href="images.html">Contact </a>
 			
 		</nav>
 
 </header>
 
 <main>
+	<!-- This is my lorem Ipsum -->
 	<article class="Lorem">
 		<img id="picture" src="img/Bridges.jpg" alt="bridges">
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-<!-- 
-		<img id="picture" src="img/Bridges.jpg" alt="bridges"> -->
+
 	</article>
 
 
 		<h1 class="Schedule">Schedule</h1>
 		<table class="table">
+			<!-- This is for the tables -->
 			<thead class="Heading clearfix">
 				<th>TIME</th>
 				<th>MONDAY</th>
@@ -87,26 +90,28 @@
 
 
 <div class="edit1">
+	<!-- This is for the forms -->
 	<h2>EDIT PROFILE</h2>
 		<form class="Input" action="/action_page.php">
   			<label for="fname">First name:</label>
   				<input type="text" id="fname" name="fname" required>
   					<br>
 
-  				<label for="lname">Email:</label>
-  	  			<input type="text" id="lname" name="lname" required>
+  				<label for="Email">Email:</label>
+  	  			<input type="Email" id="Email" name="Email" required>
   	  				<br>
 
- <label for="lname">Address:</label>
+ <label for="Address">Address:</label>
  <br>
- 	<input type="text" id="lname" name="lname" required>
+ <input type="text" id="Address" name="Address" required>
 
- <label for="lname">City:</label>
+ <label for="City">City:</label>
  	<br>
-  	<input type="text" id="lname" name="lname" required="">
+  	<input type="text" id="City" name="City" required=>
   		<br>
-  <label class="provinces"for="lname">Province:</label>
+  <label class="provinces" for="province">Province:</label>
     <select>  
+    	<!-- Form options -->
 		<option value = "N.L"> Newfoundland and Labrador   
 		</option>  
 		<option value = "P.E.I"> Prince Edward Island   
@@ -137,7 +142,6 @@
    <label for="lname">Postal Code:</label>
   		<input type="text" id="lname" name="lname"><br><br>
   			<br>
-
   	<input type="submit" value="Submit">
   	<br>
 </form>
@@ -145,19 +149,42 @@
 
 
 <aside class="profile">
+	<!-- Profile Information -->
 <h2>Profile Info</h2>
-
-
+<img id="picture1" src="img/doe.jpeg" alt="doe">
+<h4 class="placeholder">John Doe</h4>
 </aside>
-
+<p>Generic place holder text</p>
 
 
 
 </main>
-<!-- <footer class="bottom">
-	<h2>f</h2>
-</footer> -->
+	<footer class="bottom">
+	<ARTICLE>	
+	<h2 id="QuickLinks">Quick Links</h2>
+					<a class="Quick" href="contact-us.html">Home</a>
+				
+					<a class="Quick" href="about-us.html">About</a>
+				
+					<a class="Quick" href="images.html">Schedule</a>
+				
+					<a class="Quick" href="images.html">Portfolio</a>
+				
+					<a class="Quick" href="images.html">Contact </a>
+	</ARTICLE>
+<h2 class="follow">Follow us</h2>
+	<ARTICLE class="Socials">
+		<img class="Socials" src="img/facebook.png" alt="doe">
+		<img class="Socials" src="img/twitter.png" alt="doe">	
+		<img class="Socials" src="img/youtube.png" alt="doe">
 
 
+	</ARTICLE>
+<aside class="Address">
+<h2>ADDRESS</h2>
+<p>1385 Woodroffe<br>Nepean, ON K2G 1VB</p>
+</aside>
+
+	</footer>
 
 </body>
