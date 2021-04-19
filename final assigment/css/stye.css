@@ -1,0 +1,258 @@
+<@charset "utf-8";
+ /*http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+img{
+	width:100%;
+}
+
+
+
+/*CSS clearfix*/
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+/*@media all and (max-width: 200px){*/
+
+/*Color pallette
+light green:114,169,174*/
+
+
+.logo{
+	color:rgb(114,169,174);
+}
+
+body{
+	/*The background Image*/
+	background-image: url("../img/double-bubble.png");
+}
+
+.main-nav	{
+	/*the buttons*/
+	background-color:rgb(114,169,174);
+	width:100%;
+	text-align:left;
+	padding:20px;
+
+}
+
+.contact{ 
+	/*For the button decorations*/
+	text-decoration:0;
+	color:#000000;
+	padding:25px;
+}
+
+.contact:hover{
+	/*The buttons changing color*/
+	color:#ffffff;
+}
+
+.Lorem{
+	/*The lorem ipsum*/
+	width:100%;
+	font-family: 'Orelega One', cursive;
+}
+	
+#picture{
+	/*The picture*/
+/*	position:relative;*/
+	height:100px;
+	width:200px;
+	float:right;
+}
+
+.Schedule{
+	color:rgb(114,169,174);
+}
+.Table {
+/*border-collapse:collapse;*/
+margin:25px;
+font-size:0.9em;
+width:100%;
+border: 1px solid black;
+}
+
+
+
+.Heading th{
+	color:rgb(114,169,174);
+	padding:10px;
+}
+
+/*#times tr{
+	float:left;
+	text-align:left;
+}*/
+
+	td{
+		/*The table contents*/
+		border: 2px solid black;
+		padding:30px;
+		}
+
+.Tbody{
+	/*The table body */
+	padding:20px;
+	margin:25px;
+/*	width:100%;*/
+	border: 2px solid black;
+	border-collapse:collapse;
+}
+
+.edit1{
+	float:left;
+	display:block;
+	width:50%;
+	color:rgb(114,169,174);
+	text-decoration-color: rgb(000,000,000)
+
+}
+
+.Input{
+	/*The input forms*/
+	width:100px;
+	text-align:left;
+	display:inline-block;
+	clear:left;
+}
+
+.profile{
+	/*Profile heading */
+	display:inline-block;
+	width:50%;
+	color:rgb(114,169,174);
+}
+
+#picture1{
+	width:150px;
+	height:150px;
+}
+
+.placeholder {
+}
+
+.bottom{
+	width:100%;
+	background-color:#454545;
+	padding:60px;
+
+}
+#QuickLinks{
+	width:33%;
+	color:#FFFFFF;
+}
+
+.Quick{
+	/*The quicklinks */
+	display: block;
+ 	 list-style:none;
+ 	 margin:10px auto;
+ 	 text-align:left;
+	color:#FFFFFF;
+	text-decoration:0;
+}
+
+.Socials{
+	/*For the social media icons*/
+	position:relative;
+	top: -40px;
+	width:33%;
+	height:60px;
+	width:50px;
+	display: block;
+	text-align:center;
+  	margin-left: auto;
+ 	margin-right: auto;
+ 	display: flex;
+    justify-content: center;
+}
+
+.follow{
+	/*For the text above the social media icons*/
+	position:relative;
+	color:#FFFFFF;
+	text-align:center;
+	top:-175px
+}
+.Address{
+	top:-300px;
+	float:right;
+	text-align:left;
+	position:relative;
+	color:#FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
